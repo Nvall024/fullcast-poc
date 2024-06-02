@@ -146,7 +146,7 @@ export const ItemOneTabData = [
   {
     label: "People",
     content: (
-      <Grid container spacing={2} padding={2}>
+      <Grid container spacing={4}>
         {cardData.map((card, index) => (
           <CustomCard key={index} title={card.title} />
         ))}

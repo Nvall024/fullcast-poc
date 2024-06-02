@@ -30,7 +30,7 @@ export default function Reports() {
         <div className="p-7">
           <h1 className="font-bold text-3xl">Reports</h1>
         </div>
-        <Grid container spacing={2} padding={2}>
+        <Grid container spacing={2}>
           {cardData.map((card, index) => (
             <CustomCard key={index} title={card.title} />
           ))}
